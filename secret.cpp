@@ -1,18 +1,13 @@
-#include<iostream>
-using namespace std;
-int main(){
-  int a=0;
-  cin>>a;
-  int a1,a2=0;
-  int len=0;
-  while(a>0){
-    len++;
-    a/=10;
-  }
-  int b[len];
-  for(int i=0;i<len;i++){
-    if((b[i]%2)!=0)a1+=b[i];
-    if((b[i]%2)==0)a2+=b[i];
-  }
-  cout<<abs(a1-a2);
-}
+// #include<iostream>//AC
+// #include<cstring>
+// using namespace std;
+// int main(){
+//   string a;
+//   cin>>a;
+//   int x=0,y=0;
+//   for(int i=0;i<a.size();i++){
+//     if(i%2==0)x+=a[i]-'0';
+//     else y+=a[i]-'0';
+//   }
+//   cout<<abs(x-y)<<endl;
+// }
